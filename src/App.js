@@ -6,6 +6,7 @@ import Home from './Components/Home';
 import Stats from './Components/Stats';
 import Profile from './Components/Profile';
 import Header from './Components/Header';
+import NewScore from './Components/NewScore';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
             <Route exact path="/" component={ Home } />
             <Route exact path="/stats" component={ Stats } />
             <Route exact path="/profile" component={ Profile } />
+            <Route exact path="/new-score" component={ NewScore } />
           </Switch>       
         </Router>
       </React.Fragment>
