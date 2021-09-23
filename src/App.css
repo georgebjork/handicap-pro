@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+
+
+/* bootstrap css */
+
+#post-score{
+  border-radius: 1rem;
+}
+
+#recentScoreHeaderContainer{
+  font-size: 1.5rem;
+  border-radius: 0.5rem;
+}
+
+
+
+

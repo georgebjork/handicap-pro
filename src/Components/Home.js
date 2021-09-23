@@ -16,22 +16,26 @@ class Home extends Component {
                 <Container fluid>
                     <Container>
                         <Row>
-                            <Col className="bg-primary"></Col>
+                            
+                            <Col md={1}></Col>
+                            <Col md={5} xs={12}  className="mt-4">
+                                <h3 class=" display-2 text-muted" align="left">George Bjork </h3> 
+                                <h3 class="text-muted display-6" align="left">Handicap Index: {handicap}</h3>
 
-                            <Col md={6} xs={12} align="center" className="mt-3">
+                                <Button id="post-score"size="lg" align="left" className="btn btn-danger mt-1" >Post Score </Button>
+                            </Col>
+    
 
+                            <Col md={6} xs={12} align="center" className="mt-5 mb-3">
 
-                                <h3 class="text-muted mt-5">Handicap Index:</h3>
-                                <h1 class="display-1 text-muted">{handicap}</h1>
-
-                                <Button className="btn btn-secondary">Handicap History </Button>
+                                <RecentScores />
+                        
                             </Col>
                             
-                            <Col md={4} xs={12} align="center" className="mt-3">
-                                <RecentScores />
-                            </Col>
+                        </Row>
 
-                            <Col className="bg-primary"></Col>
+                        <Row>
+                            {/* <RecentScores /> */}
                         </Row>
                     </Container>
 

@@ -7,16 +7,20 @@ function ScoreList() {
     const scores = [
         {
             date: "1/1/2020", 
-            course: "Druids Glen", 
+            course: "Druids Glen Golf Course", 
             score: 80, 
-            diff: 5
+            diff: 5,
+            rating: 75.6,
+            slope: 143
         },
 
         {
             date: "1/1/2020", 
-            course: "Druids Glen", 
+            course: "Druids Glen Golf Course", 
             score: 81, 
-            diff: 7
+            diff: 7, 
+            rating: 75.6,
+            slope: 143
         }
     
     ];
