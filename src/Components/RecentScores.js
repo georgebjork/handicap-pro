@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-import { Container, Row, Col } from 'react-bootstrap'
+import { Container, Row, Col, } from 'react-bootstrap'
 import ScoreList from './ScoreList';
 
 class RecentScores extends Component {
@@ -26,6 +26,7 @@ class RecentScores extends Component {
 
                     {/* this will output a list of the 10 most recent scores */}
                     <ScoreList />
+
 
                 </Container>
 
