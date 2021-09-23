@@ -34,18 +34,21 @@ class Home extends Component {
                         </Row>
 
                         <Row>
-                            <Col md={5} xs={12}>
+                            <Col md={5} xs={12}  className="mt-4">
+                                <Container id="friendsContainer" className="bg-secondary mt-4">
+                                    <h3 id="friendsText" class="display-6 p-1 text-white" align="center"> Handicap History </h3> 
+                                </Container>
+                            </Col>
+
+                            <Col md={7} xs={12}>
                                 <Container id="friendsContainer" className="bg-secondary mt-5">
                                     <h3 id="friendsText" class="display-6 p-1 text-white" align="center"> Friends </h3> 
                                 </Container>
+
+                                <h1>Something cool eventually</h1>
                             </Col>
                         </Row>
 
-                        <Row>
-                            <Col>
-                                <h1>coming soon</h1>
-                            </Col>
-                        </Row>
                     </Container>
 
                 </Container>
